@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    gap:10px;
+    grid-template-columns: auto auto auto;
+}
+
+.header{
+    text-align: center;
+    background-color: orange;
+    padding: 50px;
+    border-radius: 12px;
+    grid-area: 1 / span 4;
+}
+.main{
+    text-align: center;
+    background-color: rgb(0, 170, 255);
+    padding: 50px;
+    border-radius: 12px;
+    grid-area: 2 / span 2;
+}
+.empty{
+    text-align: center;
+    padding: 50px;
+}
+.sidebar{
+    text-align: center;
+    background-color: rgb(205, 49, 70);
+    padding: 50px;
+    border-radius: 12px;
+}
+.footer{
+    text-align: center;
+    background-color: rgb(0, 174, 44);
+    padding: 50px;
+    border-radius: 12px;
+    grid-area: 3 /span 4;
+}
